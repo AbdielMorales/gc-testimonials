@@ -673,7 +673,7 @@ function gct_get_create_testimonial_form($error = '', $success = '', $gct_client
 		<p class=" form-field">
 			<label for="gct_client_photo">'.__("Photo:", GCT_NAME).'</label>
 			<input type="file" name="gct_client_photo" id="gct_client_photo" value="' . $gct_client_photo . '" class="text" /><br />
-			<span>'.__("Do you have a photo we can use?", GCT_NAME).'</span>
+			<span>'.__("¿Tienes una foto que podamos usar?", GCT_NAME).'</span>
 		</p>
 			
 		<p class=" form-field agree">
