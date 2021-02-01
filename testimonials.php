@@ -635,37 +635,37 @@ function gct_get_create_testimonial_form($error = '', $success = '', $gct_client
 		<p class=" form-field">
 			<label for="gct_client_name">'.__("Nombre Completo:", GCT_NAME).' <span class="req">*</span></label>
 			<input type="text" value="' . $gct_client_name . '" name="gct_client_name" id="gct_client_name" class="text required"  minlength="2" />
-			<span>'.__("What is your fullname?", GCT_NAME).'</span>
+			<span>'.__("¿Cuál es su nombre completo?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
 			<label for="gct_email">'.__("Correo:", GCT_NAME).' <span class="req">*</span></label>
 			<input type="text" value="' . $gct_email . '" name="gct_email" id="gct_email" class="text required email" />
-			<span>'.__("Fill in your email address", GCT_NAME).'</span>
+			<span>'.__("Ingrese su dirección de correo electrónico", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
 			<label for="gct_company_name">'.__("Nombre de la Empresa:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_company_name . '" name="gct_company_name" id="gct_company_name" class="text" />
-			<span>'.__("What is your company name?", GCT_NAME).'</span>
+			<span>'.__("¿Cuál es el nombre de tu compañía?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
 			<label for="gct_company_website">'.__("Página Web de la Compañía:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_company_website . '" name="gct_company_website" id="gct_company_website" class="text" />
-			<span>'.__("Does your company have a website?", GCT_NAME).'</span>
+			<span>'.__("¿Su empresa tiene un sitio web?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
 			<label for="gct_headline">'.__("Encabezado:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_headline . '" name="gct_headline" id="gct_headline" class="text" />
-			<span>'.__("Describe our company in a few short words", GCT_NAME).'</span>
+			<span>'.__("Describe nuestra empresa en pocas palabras", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
 			<label for="gct_text">'.__("Testimonio:", GCT_NAME).' <span class="req">*</span></label>
 			<textarea name="gct_text" id="gct_text" class="textarea  required">' . $gct_text . '</textarea><br />
-			<span>'.__("What do you think about our company?", GCT_NAME).'</span>
+			<span>'.__("¿Qué opinas acerca de nuestra empresa?", GCT_NAME).'</span>
 		</p>
 		
 		<div class="clear"></div>
@@ -678,13 +678,13 @@ function gct_get_create_testimonial_form($error = '', $success = '', $gct_client
 			
 		<p class=" form-field agree">
 			<input type="checkbox" value="yes" name="gct_agree" id="gct_agree" class="checkbox required" checked="checked" />  
-			<span><span class="req">*</span>'.__("I agree that this testimonial can be published.", GCT_NAME).'</span>
+			<span><span class="req">*</span>'.__("Acepto que este testimonio se pueda publicar.", GCT_NAME).'</span>
 		</p>
 		
 		<div class="clear"></div>
 		
 		<p class="form-field">
-			<input type="submit" id="gct_submit_testimonial" name="gct_submit_testimonial" value="'.__("Add Testimonial", GCT_NAME).'" class="button" validate="required:true" /> 
+			<input type="submit" id="gct_submit_testimonial" name="gct_submit_testimonial" value="'.__("Agregar Testimonio", GCT_NAME).'" class="button" validate="required:true" /> 
 		</p>
 	';
 	
