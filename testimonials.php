@@ -633,37 +633,37 @@ function gct_get_create_testimonial_form($error = '', $success = '', $gct_client
 	$html .= '
 	
 		<p class=" form-field">
-			<label for="gct_client_name">'.__("Full Name:", GCT_NAME).' <span class="req">*</span></label>
+			<label for="gct_client_name">'.__("Nombre Completo:", GCT_NAME).' <span class="req">*</span></label>
 			<input type="text" value="' . $gct_client_name . '" name="gct_client_name" id="gct_client_name" class="text required"  minlength="2" />
 			<span>'.__("What is your fullname?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
-			<label for="gct_email">'.__("Email:", GCT_NAME).' <span class="req">*</span></label>
+			<label for="gct_email">'.__("Correo:", GCT_NAME).' <span class="req">*</span></label>
 			<input type="text" value="' . $gct_email . '" name="gct_email" id="gct_email" class="text required email" />
 			<span>'.__("Fill in your email address", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
-			<label for="gct_company_name">'.__("Company Name:", GCT_NAME).'</label>
+			<label for="gct_company_name">'.__("Nombre de la Empresa:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_company_name . '" name="gct_company_name" id="gct_company_name" class="text" />
 			<span>'.__("What is your company name?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
-			<label for="gct_company_website">'.__("Company Website:", GCT_NAME).'</label>
+			<label for="gct_company_website">'.__("Página Web de la Compañía:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_company_website . '" name="gct_company_website" id="gct_company_website" class="text" />
 			<span>'.__("Does your company have a website?", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
-			<label for="gct_headline">'.__("Heading:", GCT_NAME).'</label>
+			<label for="gct_headline">'.__("Encabezado:", GCT_NAME).'</label>
 			<input type="text" value="' . $gct_headline . '" name="gct_headline" id="gct_headline" class="text" />
 			<span>'.__("Describe our company in a few short words", GCT_NAME).'</span>
 		</p>
 		
 		<p class=" form-field">
-			<label for="gct_text">'.__("Testimonial:", GCT_NAME).' <span class="req">*</span></label>
+			<label for="gct_text">'.__("Testimonio:", GCT_NAME).' <span class="req">*</span></label>
 			<textarea name="gct_text" id="gct_text" class="textarea  required">' . $gct_text . '</textarea><br />
 			<span>'.__("What do you think about our company?", GCT_NAME).'</span>
 		</p>
