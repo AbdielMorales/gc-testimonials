@@ -14,7 +14,7 @@ echo "</pre>";
  * Plugin Name: B4A Testimonios
  * Description: This plugin will help you to collect and show testimonials
  * Author: B4A
- * Version: 1.2.3
+ * Version: 2.2.3
 */
 
 define('GCT_NAME', 'gc-testimonials');
