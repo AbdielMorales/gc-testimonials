@@ -624,7 +624,7 @@ function gct_get_create_testimonial_form($error = '', $success = '', $gct_client
 	
 	$html .= '<div id="testimonial-form">';
 	if($error != '') { $html .= '<div class="error">'.$error.'</div>'; }
-	$html .= '<div class="required_notice"><span class="required">* </span>= '.__("Required Field", GCT_NAME).'</div>';
+	$html .= '<div class="required_notice"><span class="required">* </span>= '.__("Campo Requerido", GCT_NAME).'</div>';
 	$html .= '<form id="create_testimonial_form" method="post" action="" enctype="multipart/form-data">';
 	$html .= '<input type="hidden" id="g-token" name="g-token" />';
 	$html .= wp_nonce_field('gct_create_testimonial_form', 'gct_create_testimonial_form_submitted');
